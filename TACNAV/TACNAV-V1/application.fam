@@ -1,0 +1,11 @@
+App(
+    appid="gps_tacsys",
+    name="TacNav GPS",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="gps_tacsys_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="GPIO",
+    fap_version=(1, 0),
+    fap_description="Tactical GPS display for Neo-6M via UART",
+)

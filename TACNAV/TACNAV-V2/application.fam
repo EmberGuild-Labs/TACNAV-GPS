@@ -1,0 +1,11 @@
+App(
+    appid="gps_tacsys_v2",
+    name="TacNav GPS v2",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="gps_tacsys_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_category="GPIO",
+    fap_version=(2, 0),
+    fap_description="Tactical GPS v2 — splash, odometer, sat bars",
+)
